@@ -9,6 +9,9 @@
 
     span selected: {{ selected }}
 
+    br(v-for='i in 3')
+    a(href='https://github.com/kazuya0202/vue-test.git' target='_blank') to GitHub Repository
+
 </template>
 
 <script lang='ts'>
